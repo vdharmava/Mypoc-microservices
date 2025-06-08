@@ -1,0 +1,4 @@
+Service,File,Line,Vulnerability Type,CWE,Description,Severity
+UserService,UserController.cs,20,SQL Injection,CWE-89,Unsanitized username in SQL query,High
+UserService,UserController.cs,25,Hardcoded Credentials,CWE-798,Admin credentials in code,High
+ProductService,ProductController.cs,15,XSS,CWE-79,Unescaped query in HTML output,Medium
