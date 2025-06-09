@@ -1,0 +1,5 @@
+Service,File,Line,Vulnerability Type,CWE,Description,Severity
+UserService,UserController.cs,25,SQL Injection,CWE-89,Unsanitized login query,High
+UserService,UserController.cs,30,Hardcoded Credentials,CWE-798,Admin bypass,High
+StreamService,ContentController.cs,20,XSS,CWE-79,Unescaped search query,Medium
+StreamService,ContentController.cs,40,Insecure Deserialization,CWE-502,BinaryFormatter usage,High
