@@ -1,0 +1,8 @@
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/UserService/obj/Debug/net9.0/UserService.csproj.AssemblyReference.cache
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/UserService/obj/Debug/net9.0/UserService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/UserService/obj/Debug/net9.0/UserService.AssemblyInfoInputs.cache
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/UserService/obj/Debug/net9.0/UserService.AssemblyInfo.cs
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/UserService/obj/Debug/net9.0/UserService.csproj.CoreCompileInputs.cache
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/UserService/obj/Debug/net9.0/UserService.MvcApplicationPartsAssemblyInfo.cs
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/UserService/obj/Debug/net9.0/UserService.MvcApplicationPartsAssemblyInfo.cache
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/UserService/obj/Debug/net9.0/UserService.sourcelink.json

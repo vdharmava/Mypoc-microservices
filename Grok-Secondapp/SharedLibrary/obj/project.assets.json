@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/madhavdharmavaram/.nuget/packages/": {}
+    "/Users/c09915a/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/madhavdharmavaram/Venu-SAST-RFP-repo/Mypoc-microservices/Grok-Secondapp/SharedLibrary/SharedLibrary.csproj",
+      "projectUniqueName": "/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/SharedLibrary.csproj",
       "projectName": "SharedLibrary",
-      "projectPath": "/Users/madhavdharmavaram/Venu-SAST-RFP-repo/Mypoc-microservices/Grok-Secondapp/SharedLibrary/SharedLibrary.csproj",
-      "packagesPath": "/Users/madhavdharmavaram/.nuget/packages/",
-      "outputPath": "/Users/madhavdharmavaram/Venu-SAST-RFP-repo/Mypoc-microservices/Grok-Secondapp/SharedLibrary/obj/",
+      "projectPath": "/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/SharedLibrary.csproj",
+      "packagesPath": "/Users/c09915a/.nuget/packages/",
+      "outputPath": "/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/madhavdharmavaram/.nuget/NuGet/NuGet.Config"
+        "/Users/c09915a/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

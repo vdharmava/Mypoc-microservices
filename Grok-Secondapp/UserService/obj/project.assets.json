@@ -1,28 +1,109 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "Microsoft.AspNetCore.OpenApi/9.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.17"
+        },
+        "compile": {
+          "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.OpenApi/1.6.17": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SharedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.AspNetCore.OpenApi/9.0.5": {
+      "sha512": "yZLOciYlpaOO/mHPOpgeSZTv8Lc7fOOVX40eWJJoGs/S9Ny9CymDuKKQofGE9stXGGM9EEnnuPeq0fhR8kdFfg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.openapi/9.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net9.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.nuspec"
+      ]
+    },
+    "Microsoft.OpenApi/1.6.17": {
+      "sha512": "Le+kehlmrlQfuDFUt1zZ2dVwrhFQtKREdKBo+rexOwaCoYP0/qpgT9tLxCsZjsgR5Itk1UKPcbgO+FyaNid/bA==",
+      "type": "package",
+      "path": "microsoft.openapi/1.6.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.6.17.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
+    "SharedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SharedLibrary/SharedLibrary.csproj",
+      "msbuildProject": "../SharedLibrary/SharedLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.OpenApi >= 9.0.5"
+      "Microsoft.AspNetCore.OpenApi >= 9.0.5",
+      "SharedLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "/Users/madhavdharmavaram/.nuget/packages/": {}
+    "/Users/c09915a/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/madhavdharmavaram/Venu-SAST-RFP-repo/Mypoc-microservices/Grok-Secondapp/UserService/UserService.csproj",
+      "projectUniqueName": "/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/UserService/UserService.csproj",
       "projectName": "UserService",
-      "projectPath": "/Users/madhavdharmavaram/Venu-SAST-RFP-repo/Mypoc-microservices/Grok-Secondapp/UserService/UserService.csproj",
-      "packagesPath": "/Users/madhavdharmavaram/.nuget/packages/",
-      "outputPath": "/Users/madhavdharmavaram/Venu-SAST-RFP-repo/Mypoc-microservices/Grok-Secondapp/UserService/obj/",
+      "projectPath": "/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/UserService/UserService.csproj",
+      "packagesPath": "/Users/c09915a/.nuget/packages/",
+      "outputPath": "/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/UserService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/madhavdharmavaram/.nuget/NuGet/NuGet.Config"
+        "/Users/c09915a/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -33,7 +114,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/SharedLibrary.csproj": {
+              "projectPath": "/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/SharedLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -79,13 +164,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\n  The SSL connection could not be established, see inner exception.\n  Unable to write data to the transport connection: Broken pipe.\n  Broken pipe",
-      "libraryId": "Microsoft.AspNetCore.OpenApi"
-    }
-  ]
+  }
 }

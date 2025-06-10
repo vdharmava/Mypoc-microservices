@@ -1,0 +1,12 @@
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/bin/Debug/net9.0/SharedLibrary.deps.json
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/bin/Debug/net9.0/SharedLibrary.dll
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/bin/Debug/net9.0/SharedLibrary.pdb
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/obj/Debug/net9.0/SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/obj/Debug/net9.0/SharedLibrary.AssemblyInfoInputs.cache
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/obj/Debug/net9.0/SharedLibrary.AssemblyInfo.cs
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/obj/Debug/net9.0/SharedLibrary.csproj.CoreCompileInputs.cache
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/obj/Debug/net9.0/SharedLibrary.sourcelink.json
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/obj/Debug/net9.0/SharedLibrary.dll
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/obj/Debug/net9.0/refint/SharedLibrary.dll
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/obj/Debug/net9.0/SharedLibrary.pdb
+/Users/c09915a/Venu-Github/Mypoc-microservices/Grok-Secondapp/SharedLibrary/obj/Debug/net9.0/ref/SharedLibrary.dll
